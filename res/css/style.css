@@ -1,0 +1,173 @@
+body {
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  padding:0;
+  margin:0;
+}
+
+a:link {
+  text-decoration: none;
+}
+#prvni {
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+  position: absolute;
+  font-size: 120px;
+  left: 25%;
+  top: 25%;
+}
+#druhy {
+  font-family: "Times New Roman", Times, serif;
+  color: red;
+  font-size: 70px;
+  position: absolute;
+  left: 25%;
+  top: 50%;
+}
+#treti {
+  font-family: "Times New Roman", Times, serif;
+  color: red;
+  font-size: 70px;
+  position: absolute;
+  left: 25%;
+  top: 70%;
+}
+#prvni:after {
+  content: "AHOJ.";
+}
+#prvni:hover:after {
+  content: "O MNĚ";
+}
+#prvni:hover {
+  cursor: pointer;
+  transform: translateX(100px);
+  transition-duration: 1s;
+}
+#druhy:after {
+  content: "JMENUJI SE";
+}
+#druhy:hover:after {
+  content: "PROJEKTY";
+}
+#druhy:hover {
+  transform: translateX(100px);
+  transition-duration: 1s;
+  cursor: pointer;
+}
+#treti:hover {
+  transform: translateX(100px);
+  transition-duration: 1s;
+  cursor: pointer;
+}
+
+#treti:after {
+  content: "HONZA";
+}
+#treti:hover:after {
+  content: "KONTAKTY";
+}
+/*aninmace*/
+.animate {
+  -webkit-animation: animate 0.6s cubic-bezier(0.2, 0.6, 0.2, 1);
+  -moz-animation: animate 0.6s cubic-bezier(0.2, 0.6, 0.2, 1);
+  animation: animate 0.6s cubic-bezier(0.2, 0.6, 0.2, 1);
+  -webkit-animation-fill-mode: backwards;
+  -moz-animation-fill-mode: backwards;
+  animation-fill-mode: backwards;
+}
+@-webkit-keyframes animate {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(100%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+  }
+}
+@keyframes animate {
+  0% {
+    opacity: 0;
+    transform: translateY(30vh);
+  }
+  /* 	0% {transform: translateY(100%);} */
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+.animates {
+  -webkit-animation: animate 1s cubic-bezier(0.2, 0.6, 0.2, 1);
+  -moz-animation: animate 1s cubic-bezier(0.2, 0.6, 0.2, 1);
+  animation: animate 1s cubic-bezier(0.2, 0.6, 0.2, 1);
+  -webkit-animation-fill-mode: backwards;
+  -moz-animation-fill-mode: backwards;
+  animation-fill-mode: backwards;
+}
+@-webkit-keyframes animates {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(100%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+  }
+}
+@keyframes animates {
+  0% {
+    opacity: 0;
+    transform: translateY(30vh);
+  }
+  /* 	0% {transform: translateY(100%);} */
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+.animatess {
+  -webkit-animation: animate 1.4s cubic-bezier(0.2, 0.6, 0.2, 1);
+  -moz-animation: animate 1.4s cubic-bezier(0.2, 0.6, 0.2, 1);
+  animation: animate 1.4s cubic-bezier(0.2, 0.6, 0.2, 1);
+  -webkit-animation-fill-mode: backwards;
+  -moz-animation-fill-mode: backwards;
+  animation-fill-mode: backwards;
+}
+@-webkit-keyframes animatess {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(100%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+  }
+}
+@keyframes animatess {
+  0% {
+    opacity: 0;
+    transform: translateY(30vh);
+  }
+  /* 	0% {transform: translateY(100%);} */
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+.delay1 {
+  -webkit-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+}
+.delay2 {
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
+}
+.delay3 {
+  -webkit-animation-delay: 1.2s;
+  animation-delay: 1.2s;
+}
+/*loader*/

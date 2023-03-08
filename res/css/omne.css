@@ -1,0 +1,182 @@
+body {
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: xx-large;
+  font-family: "Times New Roman", Times, serif;
+}
+#container {
+  margin-left: 25%;
+  margin-right: 25%;
+}
+a:link {
+  text-decoration: none;
+}
+button {
+  float: left;
+  padding: 0.1em 0.25em;
+  width: 9em;
+  height: 4.2em;
+  background-color: #212121;
+  border: 0.08em solid #fff;
+  border-radius: 0.3em;
+  font-size: 12px;
+}
+
+button span {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 0.4em;
+  width: 5.5em;
+  height: 2.5em;
+  background-color: #212121;
+  border-radius: 0.2em;
+  font-size: 1.5em;
+  color: #fff;
+  border: 0.08em solid #fff;
+  box-shadow: 0 0.4em 0.1em 0.019em #fff;
+}
+
+button span:hover {
+  transition: all 0.5s;
+  transform: translate(0, 0.4em);
+  box-shadow: 0 0 0 0 #fff;
+}
+
+button span:not(hover) {
+  transition: all 1s;
+}
+
+#obrazek {
+  left: 70%;
+}
+#nadpis {
+  font-size: 120px;
+}
+.animate {
+  -webkit-animation: animate 1s cubic-bezier(0.2, 0.6, 0.2, 1);
+  -moz-animation: animate 1s cubic-bezier(0.2, 0.6, 0.2, 1);
+  animation: animate 1s cubic-bezier(0.2, 0.6, 0.2, 1);
+  -webkit-animation-fill-mode: backwards;
+  -moz-animation-fill-mode: backwards;
+  animation-fill-mode: backwards;
+}
+
+@-webkit-keyframes animate {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(100%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+  }
+}
+
+@keyframes animate {
+  0% {
+    opacity: 0;
+    transform: translateY(30vh);
+  }
+  /* 	0% {transform: translateY(100%);} */
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+.delay1 {
+  -webkit-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+}
+.animates {
+  -webkit-animation: animate 1s cubic-bezier(0.2, 0.6, 0.2, 1);
+  -moz-animation: animate 1s cubic-bezier(0.2, 0.6, 0.2, 1);
+  animation: animate 1s cubic-bezier(0.2, 0.6, 0.2, 1);
+  -webkit-animation-fill-mode: backwards;
+  -moz-animation-fill-mode: backwards;
+  animation-fill-mode: backwards;
+}
+
+@-webkit-keyframes animates {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(100%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+  }
+}
+.animatess {
+  -webkit-animation: animate 1.4s cubic-bezier(0.2, 0.6, 0.2, 1);
+  -moz-animation: animate 1.4s cubic-bezier(0.2, 0.6, 0.2, 1);
+  animation: animate 1.4s cubic-bezier(0.2, 0.6, 0.2, 1);
+  -webkit-animation-fill-mode: backwards;
+  -moz-animation-fill-mode: backwards;
+  animation-fill-mode: backwards;
+}
+@-webkit-keyframes animatess {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(100%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+  }
+}
+@keyframes animatess {
+  0% {
+    opacity: 0;
+    transform: translateY(30vh);
+  }
+  /* 	0% {transform: translateY(100%);} */
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+.delay3 {
+  -webkit-animation-delay: 1.2s;
+  animation-delay: 1.2s;
+}
+@keyframes animates {
+  0% {
+    opacity: 0;
+    transform: translateY(30vh);
+  }
+  
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+.delay2 {
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
+}
+#ig{
+  font-family: "Times New Roman", Times, serif;
+  position: absolute;
+  font-size: 80px;
+  left: 25%;
+  top: 25%;
+
+}
+#git{
+  font-family: "Times New Roman", Times, serif;
+  color: blue;
+  font-size: 80px;
+  position: absolute;
+  left: 25%;
+  top: 50%;
+}
+#email{
+  font-family: "Times New Roman", Times, serif;
+  font-size: 80px;
+  position: absolute;
+  left: 25%;
+  top: 75%;
+}
